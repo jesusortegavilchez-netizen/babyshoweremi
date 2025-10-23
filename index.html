@@ -57,10 +57,10 @@
 
         .invitation-card {
             background: 
-                url('./images/rosaesquinainferior.png') no-repeat bottom left,
-                url('./images/rosaesquinasuperior.png') no-repeat top right;
+                url('./images/fondo3.jpeg') no-repeat center center;
+                
             background-color: rgba(255, 255, 255, 0.95);
-            background-size: 150px , 150px;
+            background-size: cover;
             padding: 80px 50px 60px 50px;
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
             border: 4px solid #ffffff;
@@ -109,12 +109,14 @@
         }
 
         .greeting {
-            color: #999;
+            color: #ffffff;
+            
             font-size: 20px;
-            font-weight: 400;
-            letter-spacing: 1.5px;
+            font-weight: 550;
+            /* letter-spacing: 1.5px; */
             text-transform: uppercase;
-            font-style: italic;
+            font-family:'Prata', serif;
+            margin-top: 270px;
             margin-bottom: 30px;
         }
 
@@ -149,9 +151,9 @@
         }
 
         .join-text {
-            color: #999;
-            font-size: 18px;
-            font-weight: 300;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 500;
             line-height: 1.8;
             margin-bottom: 50px;
         }
@@ -159,7 +161,7 @@
         .baby-name {
             color: #b8638f;
             font-size: 58px;
-            font-weight: 300;
+            font-weight: 600;
             letter-spacing: 8px;
             font-family:'Prata', serif;
             text-transform: uppercase;
@@ -188,49 +190,51 @@
         }
 
         .detail-info {
-            color: #666;
+            color: #ffffff;
             font-size: 18px;
             font-weight: 400;
         }
 
         .location-text {
-            color: #666;
+            color: #ffffff;
             font-size: 18px;
-            font-weight: 400;
+            font-weight: 500;
             line-height: 1.8;
         }
 
         .message-card .greeting {
             margin-bottom: 40px;
-            line-height: 1.6;
+            /* line-height: 1.6; */
         }
 
         .message-content {
-            color: #999;
-            font-size: 16px;
-            font-weight: 300;
-            line-height: 2;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 2; 
             margin-bottom: 0;
         }
 
         .message-content p {
-            margin-bottom: 30px;
+            /* margin-bottom: 30px; */
         }
 
         .reminder-text {
-            color: #999;
+            color: #ffffff;
             font-size: 18px;
-            font-weight: 500;
+            font-family:'Prata', serif;
+            font-weight: 600;
             letter-spacing: 2px;
             text-transform: uppercase;
             margin: 40px 0 30px 0;
         }
 
         .quote-text {
-            color: #999;
-            font-size: 18px;
-            font-weight: 300;
-            line-height: 1.8;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 520;
+            line-height: 1.2;
+            margin-bottom: 180px;
         }
 
         .map-button-container {
@@ -272,18 +276,18 @@
 
         .amazon-button-container {
             text-align: center;
-            margin: 40px 0;
+            margin: 30px 0;
         }
 
         .amazon-button {
             display: inline-block;
-            padding: 15px 40px;
+            padding: 15px 30px;
             background: linear-gradient(135deg, #FFB6C1 0%, #FFC0CB 100%);
             color: #ffffff;
             text-decoration: none;
             border-radius: 50px;
-            font-size: 18px;
-            font-weight: 500;
+            font-size: 14px;
+            font-weight: 520;
             letter-spacing: 1px;
             text-transform: uppercase;
             box-shadow: 0 4px 15px rgba(255, 182, 193, 0.4);
@@ -388,7 +392,7 @@
             color: #b8638f;
             font-weight: bold;
             margin: 20px 0;
-            min-height: 40px;
+            min-height: 30px;
         }
 
         .whatsapp-button-container {
@@ -398,12 +402,12 @@
 
         .whatsapp-button {
             display: inline-block;
-            padding: 15px 40px;
+            padding: 10px 30px;
             background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
             color: #ffffff;
             text-decoration: none;
             border-radius: 50px;
-            font-size: 18px;
+            font-size: 16px;
             font-weight: 500;
             letter-spacing: 1px;
             text-transform: uppercase;
@@ -487,7 +491,7 @@
         <div class="invitation-card">
              
             <div class="bow-container">
-                <img class="bow-icon" src="./images/lazorosa.png" alt="lazorosa">
+                
             </div>
 
             <p class="text-center greeting"> TE INVITAMOS A NUESTRO </p>
@@ -532,7 +536,7 @@
         <div class="invitation-card message-card">
            
             <div class="bow-container">
-                <img class="bow-icon" src="./images/lazorosa.png" alt="lazorosa">
+                
             </div>
 
             <p class="text-center greeting">
@@ -541,10 +545,7 @@
             </p>
 
             <div class="text-center message-content">
-                <p> SI DESEAS ACOMPAÑARNOS CON UN DETALLE </p>
-                
-                <p> HEMOS PREPARADO CON MUCHO CARIÑO UNA LISTA DE <br>
-                 REGALOS EN AMAZON PARA FACILITARTE ALGUNAS IDEAS </p>
+                <p>  SI DESEAS ACOMPAÑARNOS CON UN DETALLE HEMOS PREPARADO CON MUCHO CARIÑO UNA LISTA DE REGALOS EN AMAZON PARA FACILITARTE ALGUNAS IDEAS </p>
             </div>
 
             <div class="amazon-button-container">
@@ -571,13 +572,13 @@
 
         <!-- TARJETA 3: Sorteo Cesta Navideña -->
         <div class="invitation-card">
-            
-            <div class="bow-container">
-                <img class="bow-icon" src="./images/lazorosa.png" alt="lazorosa">
-            </div>
-
+            <br><br>
+            <br><br>
+            <br><br>
+        
             <p class="text-center greeting">
-                🎄 SORTEO CESTA NAVIDEÑA 🎄
+
+                 SORTEO CESTA NAVIDEÑA 
             </p>
 
             <div class="text-center message-content">
@@ -626,8 +627,11 @@
 
             <p class="text-center quote-text">
                  HABRAN MUCHOS JUEGOS Y REGALOS DURANTE LA CELEBRACION<BR>
-                    ¡TE ESPERAMOS!
+                    <BR><BR>
+                    <span style="font-family:'Prata', serif; font-size: 20px; font-weight: 600;">¡TE ESPERAMOS!</span>
+                    
             </p>
+         
         </div>
     </div>
 
