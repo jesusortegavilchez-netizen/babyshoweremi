@@ -56,7 +56,11 @@
         }
 
         .invitation-card {
-            background: rgba(255, 255, 255, 0.95);
+            background: 
+                url('./rosaesquinainferior.png') no-repeat bottom left,
+                url('./rosaesquinasuperior.png') no-repeat top right;
+            background-color: rgba(255, 255, 255, 0.95);
+            background-size: 150px , 150px;
             padding: 80px 50px 60px 50px;
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
             border: 4px solid #ffffff;
@@ -65,7 +69,14 @@
             border-radius: 30px 30px 30px 30px;
             /*clip-path: ellipse(100% 100% at 50% 100%);*/
         }
-
+        .corner-flower {
+            position: absolute;
+            bottom: -22px;
+            left: -25px;
+            width: 300px; /* ajusta el tamaño */
+            opacity: 0.9; /* opcional, para que se vea más suave */
+            pointer-events: none; /* evita que bloquee clics en botones cercanos */
+        }
         .bow-container {
             width: 100%;
             display: flex;
@@ -474,8 +485,9 @@
     <div class="container">
         <!-- TARJETA 1: Invitación Principal -->
         <div class="invitation-card">
+             
             <div class="bow-container">
-                <img class="bow-icon" src="./images/lazorosa.png" alt="lazorosa">
+                <img class="bow-icon" src="./lazorosa.png" alt="lazorosa">
             </div>
 
             <p class="text-center greeting"> TE INVITAMOS A NUESTRO </p>
@@ -518,8 +530,9 @@
 
         <!-- TARJETA 2: Mensaje de Detalles -->
         <div class="invitation-card message-card">
+           
             <div class="bow-container">
-                <img class="bow-icon" src="./images/lazorosa.png" alt="lazorosa">
+                <img class="bow-icon" src="./lazorosa.png" alt="lazorosa">
             </div>
 
             <p class="text-center greeting">
@@ -558,8 +571,9 @@
 
         <!-- TARJETA 3: Sorteo Cesta Navideña -->
         <div class="invitation-card">
+            
             <div class="bow-container">
-                <img class="bow-icon" src="./images/lazorosa.png" alt="lazorosa">
+                <img class="bow-icon" src="./lazorosa.png" alt="lazorosa">
             </div>
 
             <p class="text-center greeting">
